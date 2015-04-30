@@ -1,0 +1,14 @@
+div{
+	border: 1px solid black;
+	height: 500px;
+	float: left;
+	padding: 20px;
+}
+
+div#left, div#right {
+	width: 15%;
+}
+
+div#center {
+	width: 70%;
+}
