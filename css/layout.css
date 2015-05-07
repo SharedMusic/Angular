@@ -1,8 +1,12 @@
-div{
+#whole div {
 	border: 1px solid black;
-	height: 500px;
+	height: 100%;
 	float: left;
 	padding: 20px;
+}
+
+#whole {
+	height: 100%;
 }
 
 div#left, div#right {
@@ -11,4 +15,8 @@ div#left, div#right {
 
 div#center {
 	width: 70%;
+}
+
+body, html {
+	height: 100%
 }
